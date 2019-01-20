@@ -1,15 +1,12 @@
-const { Client } =  require ( ' discord.js ' );
-const { token } =  require ( ' ./settings ' );
-const  client  =  new  Client ();
+const Discord = require ( "discord.js" );
+client const = new Discord.Client ();
 
-client . on ( ' ready ' , () =>  console . log ( ' Ready! ' ));
 
-client . on ( ' message ' , ( msg ) => {
-     if ( msg . author . bot ) return ;
 
-    if ( msg . content . startsWith ( ' ! ping ' )) {
-         msg . canal . envoyer ( ' ! gnip ' );
-    }
-});
 
-client . login (NTI3NTAzNDYyMTY3MDg1MDc2.DyVBew.xogGxIwQ5idfVLDt9kwJaZGkwxs);
+
+
+
+
+
+client . login ("NTI3NTAzNDYyMTY3MDg1MDc2.DyVBew.xogGxIwQ5idfVLDt9kwJaZGkwxs");
